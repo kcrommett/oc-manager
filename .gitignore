@@ -3,6 +3,9 @@ node_modules/
 .bun/
 bun.lockb
 
+# mprocs
+mprocs.yaml
+mprocs.log
 # Package manager caches
 .npm/
 .npm-cache/
