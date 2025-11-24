@@ -648,6 +648,7 @@ const SessionsPanel = forwardRef<PanelHandle, SessionsPanelProps>(function Sessi
               <text>Updated: {formatDate(currentSession.updatedAt || currentSession.createdAt)}</text>
               <text>Directory:</text>
               <text>{formatDisplayPath(currentSession.directory, { fullPath: true })}</text>
+              <text fg={PALETTE.muted} style={{ marginTop: 1 }}>Press Y to copy ID</text>
             </box>
           ) : null}
         </box>
